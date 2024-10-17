@@ -1,0 +1,35 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>One-Page Website with Lightbox</title>
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/css/lightbox.min.css" rel="stylesheet" />
+</head>
+<body>
+
+    <header>
+        <h1>Welcome to My One-Page Website</h1>
+    </header>
+
+    <section id="gallery">
+        <h2>Image Gallery</h2>
+        <div class="gallery">
+            <a href="image1.jpeg" data-lightbox="gallery" data-title="Image 1 Description">
+                <img src="image1.jpeg" alt="Image 1">
+            </a>
+            <a href="image2.jpeg" data-lightbox="gallery" data-title="Image 2 Description">
+                <img src="image2.jpeg" alt="Image 2">
+            </a>
+            <a href="image3.jpeg" data-lightbox="gallery" data-title="Image 3 Description">
+                <img src="image3.jpeg" alt="Image 3">
+            </a>
+            <!-- Add more images as needed -->
+        </div>
+    </section>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/lightbox2/2.11.3/js/lightbox.min.js"></script>
+    <script src="script.js"></script>
+</body>
+</html>
